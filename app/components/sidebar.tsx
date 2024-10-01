@@ -242,6 +242,7 @@ export function SideBar(props: { className?: string }) {
             }}
             shadow
           />
+          {/*
           <IconButton
             icon={<DiscoveryIcon />}
             text={shouldNarrow ? undefined : Locale.Discovery.Name}
@@ -249,6 +250,7 @@ export function SideBar(props: { className?: string }) {
             onClick={() => setShowPluginSelector(true)}
             shadow
           />
+          */}
         </div>
         {showPluginSelector && (
           <Selector
